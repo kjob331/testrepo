@@ -1,0 +1,92 @@
+/* 全体 */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* ヘッダー */
+header {
+    background-color: #3f3fc7;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* タイトル */
+header h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+/* ナビゲーション */
+.nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* メイン */
+main {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+/* 白いボックス */
+.contact-from {
+    background-color: white;
+    width: 400px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* 見出し */
+.contact-from h2 {
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+/* ラベル */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* 入力欄 */
+input,
+select {
+    width: 150px;
+    padding: 10px;
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* 計算式・結果 */
+#formula,
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* フッター */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}

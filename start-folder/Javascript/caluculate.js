@@ -10,7 +10,7 @@ operatorSelect.addEventListener("change", calculate);
 
 function calculate() {
     const val1 = parseFloat(val1Input.value);
-    const val2 = parseFloat(val2Input);
+    const val2 = parseFloat(val2Input.value);
     const operator = operatorSelect.value;
 
 if (isNaN(val1) || isNaN(val2)) {
@@ -47,6 +47,6 @@ if (isNaN(val1) || isNaN(val2)) {
 
   //演算式と結果を表示
   formulaArea.textContent = `計算式：${val1} ${symbol} ${val2}`;
-  resultArea.textContent = `計算結果：${{result}}`;
+  resultArea.textContent = `計算結果：${result}`;
 }
 
